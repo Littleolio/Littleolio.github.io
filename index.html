@@ -1,55 +1,89 @@
 <!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
 
-<html lang="en">
-  <head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <meta charset="utf-8" />
+li {
+  float: left;
+}
 
-  </head>
-  <header>
-    <div class="container">
-      <h1 class="logo"></h1>
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Projects</a></li>        
-          <li><a href="#">Other Info</a></li>
-        </ul>
-      </nav>
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: green;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #60606060;
+  min-width: 160px;
+  box-shadow: 8px 16px rgba(0,0,0,0);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: right;
+}
+
+.dropdown-content a:hover {background-color: #9BC89C ;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">My Projects</a>
+    <div class="dropdown-content">
+        <p><a href = "https://editor.p5js.org/littleolio/sketches/n_byhOHN">Robot</a></p>
+        <p><a href = "https://editor.p5js.org/littleolio/sketches/_fbM2Wvs">First HTML</a></p>
+        <p><a href = "https://editor.p5js.org/littleolio/sketches/qQ1GZJsI">Box Art</a></p>
+        <p><a href = "https://editor.p5js.org/littleolio/sketches/UPTxAw7E">4 Corner Drawing</a></p>
+        <p><a href = "https://editor.p5js.org/littleolio/sketches/nE4DLV_G">Circle Dance</a></p>
+        <p><a href = "https://editor.p5js.org/littleolio/sketches/1zQrLA4Z">Color Game</a></p>
+        <p><a href = "https://editor.p5js.org/littleolio/sketches/rsAgaZs9">Ball Gravity</a></p>
+        <p><a href = "https://editor.p5js.org/littleolio/sketches/q7LPbjnEe">Wall Bounce</a></p>
+		<p><a href = "https://editor.p5js.org/littleolio/sketches/UbNIWVRV">Wave Tiles</a></p>
+        <p><a href = "https://editor.p5js.org/littleolio/sketches/ZcfC6bGZT">Snow</a></p>
+  		<p><a href = "https://editor.p5js.org/littleolio/sketches/8uGhDMVTF">First Bubble</a></p>
+        <p><a href = "https://editor.p5js.org/littleolio/sketches/auhOOZT0l">Bubble in Array</a></p>
+        <p><a href = "https://editor.p5js.org/littleolio/sketches/PIBDzZXRR">Bubble Class</a></p>
+    
+    
     </div>
-  </header>
-  <body>
-      
+  </li>
+</ul>
 
-<html lang="en">
-  <head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <meta charset="utf-8" />
-
-  </head>
-  <body>
+</body>
+</body>
   <h1>Welcome TO Olivia Raetze's Page!</h1>
   <p>Hello Everyone on my page!</p>
-        <p>
-        <meta charset="utf-8"><a href="https://editor.p5js.org/littleolio/sketches/rsAgaZs9">Ball Drop</a></p>
-    <p>
-        <meta charset="utf-8"><a href="https://editor.p5js.org/littleolio/sketches/q7LPbjnEe">Bouncing off the Walls</a></p>
-    <p>
-        <meta charset="utf-8"><a href="https://editor.p5js.org/littleolio/sketches/qQ1GZJsI">Box Art</a></p>
-    <p>
-        <meta charset="utf-8"><a href="https://editor.p5js.org/littleolio/sketches/UPTxAw7E">4 Corner Drawing</a></p>
-    <p>
-        <meta charset="utf-8"><a href="https://editor.p5js.org/littleolio/sketches/ZcfC6bGZT">Snow Designer</a></p>
-    <p>
-        <meta charset="utf-8"><a href="https://editor.p5js.org/littleolio/sketches/1zQrLA4Z">Purple Shades</a></p>
-  <p><img src="https://miro.medium.com/max/4746/1*ITdSLJZ0IKmQcYPwA4cdJQ.jpeg" alt="" width="602" height="386" /></p>
-  </body>
-</html>
-    <script src="sketch.js"></script>
-  </body>
+ <p><img src="https://miro.medium.com/max/4746/1*ITdSLJZ0IKmQcYPwA4cdJQ.jpeg" alt="" width="602" height="386" /></p>
+ </body>
 </html>
